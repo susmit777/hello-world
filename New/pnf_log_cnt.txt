@@ -1,0 +1,231 @@
+
+root@localhost:/home/user/susmit# ./dpdk-PNF  192.168.2.120 4242
+EAL: Detected 16 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'VA'
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+[  306.872172] NXP-LA12xx-Driver 0002:01:00.0: gul_ipc_pci_map_alloc:399 alloc addr 0 size 40000000 cnt 1
+[  306.881473] NXP-LA12xx-Driver 0002:01:00.0: Huge Page Buff:0x2300000000[H]-0x0[M],siz 1073741824, dbi_idx: 4
+ipc_priv->sys_map.hugepg_start.modem_phys: 0
+hugepg 2300000000 0x140000000 40000000
+nfapi_pnf_start
+Starting P5 PNF connection to VNF at 192.168.2.120:4242
+Host address info  0 Family:IPV4 Address:192.168.2.120
+[  307.023130] sctp: Hash tables configured (bind 32/46)
+PNF Setting the SCTP_INITMSG
+P5 socket created...
+connect succeeded...
+After connect loop
+Association ID = 1
+Receiver window size = 81920
+In Streams = 5
+Out Streams = 5
+Socket CONNECTED
+sending pnf ready
+ message length =16
+PNF_PARAM.request received
+pnf_param_request
+ message length =16
+PNF_CONFIG.request received
+pnf_config_request
+ message length =16
+PNF_START.request Received
+ message length =16
+PARAM.request received
+ message length =54
+CONFIG.request received
+config_request
+PNF: Id 1 Vnf p7 Port: 192.168.2.120:5200 Timing Window: 10 3 128
+ message length =16
+START.request received
+start_request
+nfapi_pnf_p7_start
+PNF P7 socket created (79)...
+PNF P7 binding 79 too 192.168.2.181:2500
+PNF P7 bind succeeded...
+nfapi_pnf_start_resp for phy_id: 1
+[FAPI] Rx Data from 7722
+[FAPI] Tx Data to 192.168.2.120:7733
+reallocing rx buffer 32
+reallocing rx buffer 133
+dl TTI lX msg =1 size =-953398280
+ul TTI lX msg =2 size =26
+ul DCI lX msg =3 size =26
+Tx data lX msg =4 size =32
+la data id =1
+la data id =2
+la data id =3
+la data id =4
+Rx_Buffer rx que empty
+dl TTI lX msg =5 size =-953398280
+ul TTI lX msg =6 size =26
+ul DCI lX msg =7 size =26
+Tx data lX msg =8 size =32
+la data id =5
+la data id =6
+la data id =7
+la data id =8
+Rx_Buffer rx que empty
+dl TTI lX msg =9 size =-953398280
+ul TTI lX msg =10 size =26
+ul DCI lX msg =11 size =26
+Tx data lX msg =12 size =32
+la data id =9
+la data id =10
+la data id =11
+la data id =12
+Rx_Buffer rx que empty
+dl TTI lX msg =13 size =-953398280
+ul TTI lX msg =14 size =26
+ul DCI lX msg =15 size =26
+Tx data lX msg =16 size =32
+la data id =13
+la data id =14
+la data id =15
+la data id =16
+Rx_Buffer rx que empty
+dl TTI lX msg =17 size =-953398280
+ul TTI lX msg =18 size =26
+ul DCI lX msg =19 size =26
+Tx data lX msg =20 size =32
+la data id =17
+la data id =18
+la data id =19
+la data id =20
+Rx_Buffer rx que empty
+dl TTI lX msg =21 size =-953398280
+ul TTI lX msg =22 size =26
+ul DCI lX msg =23 size =26
+Tx data lX msg =24 size =32
+la data id =21
+la data id =22
+la data id =23
+la data id =24
+Rx_Buffer rx que empty
+dl TTI lX msg =25 size =-953398280
+ul TTI lX msg =26 size =26
+ul DCI lX msg =27 size =26
+Tx data lX msg =28 size =32
+la data id =25
+la data id =26
+la data id =27
+la data id =28
+Rx_Buffer rx que empty
+dl TTI lX msg =29 size =-953398280
+ul TTI lX msg =30 size =26
+ul DCI lX msg =31 size =26
+Tx data lX msg =32 size =32
+la data id =29
+la data id =30
+la data id =31
+la data id =32
+Rx_Buffer rx que empty
+dl TTI lX msg =33 size =-953398280
+ul TTI lX msg =34 size =26
+ul DCI lX msg =35 size =26
+Tx data lX msg =36 size =32
+la data id =33
+la data id =34
+la data id =35
+la data id =36
+Rx_Buffer rx que empty
+dl TTI lX msg =37 size =-953398280
+ul TTI lX msg =38 size =26
+ul DCI lX msg =39 size =26
+Tx data lX msg =40 size =32
+la data id =37
+la data id =38
+la data id =39
+la data id =40
+Rx_Buffer rx que empty
+dl TTI lX msg =41 size =-953398280
+ul TTI lX msg =42 size =26
+ul DCI lX msg =43 size =26
+Tx data lX msg =44 size =32
+la data id =41
+la data id =42
+la data id =43
+la data id =44
+Rx_Buffer rx que empty
+dl TTI lX msg =45 size =-953398280
+ul TTI lX msg =46 size =26
+ul DCI lX msg =47 size =26
+Tx data lX msg =48 size =32
+la data id =45
+la data id =46
+la data id =47
+la data id =48
+Rx_Buffer rx que empty
+dl TTI lX msg =49 size =-953398280
+ul TTI lX msg =50 size =26
+ul DCI lX msg =51 size =26
+Tx data lX msg =52 size =32
+la data id =49
+la data id =50
+la data id =51
+la data id =52
+Rx_Buffer rx que empty
+dl TTI lX msg =53 size =-953398280
+ul TTI lX msg =54 size =26
+ul DCI lX msg =55 size =26
+Tx data lX msg =56 size =32
+la data id =53
+la data id =54
+la data id =55
+la data id =56
+Rx_Buffer rx que empty
+dl TTI lX msg =57 size =-953398280
+ul TTI lX msg =58 size =26
+ul DCI lX msg =59 size =26
+Tx data lX msg =60 size =32
+la data id =57
+la data id =58
+la data id =59
+la data id =60
+Rx_Buffer rx que empty
+dl TTI lX msg =61 size =-953398280
+ul TTI lX msg =62 size =26
+ul DCI lX msg =63 size =26
+Tx data lX msg =64 size =32
+la data id =61
+la data id =62
+la data id =63
+la data id =64
+Rx_Buffer rx que empty
+dl TTI lX msg =65 size =-953398280
+ul TTI lX msg =66 size =26
+ul DCI lX msg =67 size =26
+Tx data lX msg =68 size =32
+la data id =65
+la data id =66
+la data id =67
+la data id =68
+Rx_Buffer rx que empty
+dl TTI lX msg =69 size =-953398280
+ul TTI lX msg =70 size =26
+ul DCI lX msg =71 size =26
+Tx data lX msg =72 size =32
+la data id =69
+la data id =70
+la data id =71
+la data id =72
+Rx_Buffer rx que empty
+dl TTI lX msg =73 size =-953398280
+ul TTI lX msg =74 size =26
+ul DCI lX msg =75 size =26
+Tx data lX msg =76 size =32
+la data id =73
+la data id =74
+la data id =75
+la data id =76
+Rx_Buffer rx que empty
+dl TTI lX msg =77 size =-953398280
+ul TTI lX msg =78 size =26
+ul DCI lX msg =79 size =26
+Tx data lX msg =80 size =32
+la data id =77
+la data id =78
+la data id =79
+la data id =80
