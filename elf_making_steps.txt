@@ -1,0 +1,25 @@
+
+sudo service binfmt-support start
+
+
+sudo -S cp -r /mnt/c/Users/Admin/Documents/geul_freertos_la12xx-la1224_bringup/ src/
+sudo -S cp -r /mnt/c/Users/Admin/Documents/geul_common_headers-la12xx/ src/
+
+
+
+
+export COMMON_HEADERS_DIR=/home/susmit/src/geul_common_headers-la12xx/
+
+echo $COMMON_HEADERS_DIR
+
+export E200GCC_DIR=/home/susmit/Tools/gcc-4.9.4-Ee200-eabivle/i686-linux
+
+export PATH=$PATH:$E200GC_DIR/bin
+
+
+
+sudo -S chmod -R ugo+rwx susmit
+
+cd /susmit/src/geul_freertos_la12xx-la1224_bringup/demos/E200_MPC57XXX_GEUL_GCC
+
+./build.sh -t la1224 -l info -b release -m pci
