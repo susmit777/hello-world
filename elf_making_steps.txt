@@ -23,3 +23,5 @@ sudo -S chmod -R ugo+rwx susmit
 cd /susmit/src/geul_freertos_la12xx-la1224_bringup/demos/E200_MPC57XXX_GEUL_GCC
 
 ./build.sh -t la1224 -l info -b release -m pci
+
+asshole
